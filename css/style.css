@@ -13,7 +13,7 @@ body{
 		height: 819px;
 		margin-left: 30px;
 		margin-top: 35px;
-		border: 1px solid;
+		
 		}
 
 		#right_side{
@@ -22,7 +22,7 @@ body{
 		height: 786px;
 		margin-left: 30px;
 		margin-top: 65px;
-		border: 1px solid;
+		
 		}
 		
 .title{
@@ -46,19 +46,19 @@ body{
     display: inline-block;
 }
 .social i {
-    width: 40px;
-    height: 40px;
-    color: #FFF;
-    background-color: #ddeed7;
+    width: 50px;
+    height: 50px;
+    
+    background-color: #fff;
     font-size: 22px;
     text-align:center;
-    padding-top: 12px;
+    padding-top: 14px;
     margin-top: 35px;
     margin-left: 25px;
     border-radius: 50%;
- 	 border-style:inset;
-    border-color: #FFF;
-}
+    border: 1px solid #00fff6;
+ 
+
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
@@ -70,7 +70,7 @@ body{
 }
 
 .social i:hover {
-    color: #FFF;
+    
     text-decoration: none;
     transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -88,4 +88,19 @@ body{
 
 .social .fa-google-plus:hover { /* round google plus icon*/
     background: #e64522;
+}
+.btn-round{
+    background-color: #0409f4;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #f4f4f4;
+    display: block;
+    font-size: 12px;
+    height: 45px;
+    line-height: 50px;
+    margin: 25px 120px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 45px;
 }
